@@ -1,0 +1,216 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    width: 100%;
+}
+#header {
+    height: 70px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color:rgb(182, 35, 35);
+    width: 100%;
+    align-items: center;
+    top: 0;
+    right: 0;
+
+}
+.header-img {
+    height: 70px;
+    width: 150px;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    padding-right: 50px;
+    margin: 0px;
+}
+.list {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.list:hover {
+    background-color: #45567d;
+}
+.nav-link {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+#welcome-section {
+    background-color: black;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    display: block;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    
+    border-bottom: 0.2rem solid
+}
+.welcome-paragraf {
+    color:red;
+    text-align: center;
+    font-size: 30px;
+  
+    display: block;
+    font-style: italic;
+    font-weight: 200;
+}
+.section-img {
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    background-image: url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg')no-repeat;
+}
+#projects {
+    background-color: #45567d;
+    padding-top: 100px;
+}
+.project-title {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid;
+}
+.show-all {
+    margin: 0 auto;
+    display: block;
+    background-color: #303841;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.show-all:hover {
+    background-color: rgb(182, 35, 35);
+    
+}
+#simbol {
+    transition: 0.5s;
+}
+.show-all:hover #simbol {
+    transform: translate(5px, 0);
+}
+
+.button {
+    padding-bottom: 70px;
+}
+.project-img {
+    width: 100%;
+    object-fit: cover;
+    height: 370px;
+}
+.project-box {
+    width: 380px;
+    height: 390px;
+    
+}
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.img-p {
+    padding: 20px 5px 20px 5px;
+    background-color: #303841;
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boxes {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contact {
+    text-align: center;
+    background-color: black;
+}
+.bot-list {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 900px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    display: block;
+    margin: 0px;
+    padding-top: 300px;
+}
+.bot-paragraph {
+    color: white;
+    font-style: italic;
+}
+.bot-nav {
+    margin-top: 40px;
+    padding-bottom: 300px;
+}
+#profile-link {
+    margin-right: 30px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    
+}
+.list-element {
+    transition: transform 0.5s;
+}
+.list-element:hover {
+    transform: translate(0, 10px);
+}
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-top: rgb(182, 35, 35) 0.2rem solid;
+    
+}
+.footer-prf {
+    color: white;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+  
